@@ -1,0 +1,21 @@
+# Example Terraform variables file
+# Copy this file to terraform.tfvars and fill in your values
+
+# Required: Your GCP Project ID
+GOOGLE_PROJECT = "your-gcp-project-id"
+
+# Optional: GCP region (default: us-central1-c)
+# GOOGLE_REGION = "us-central1-c"
+
+# Optional: GKE cluster name (default: main)
+# GKE_CLUSTER_NAME = "main"
+
+# Optional: GKE node pool name (default: main)
+# GKE_POOL_NAME = "main"
+
+# Optional: Number of nodes (default: 2)
+# GKE_NUM_NODES = 2
+
+# Optional: Machine type (default: g1-small)
+# GKE_MACHINE_TYPE = "g1-small"
+
